@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Details</title>
+    <link rel="stylesheet" href="css/testDetails.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    input {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+    }
+
+    #sub {
+        border-radius: 5px;
+    }
+
+    #view {
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <div id="background">
+        <div id="lab_test"></div>
+        <div id="test_container">
+            <div id="test_name"></div>
+            <div id="test_detail_container">
+                <form action="#" name="form1">
+                    <div id="input_container">
+                        <div class="div-1">
+                            <label id="first_name"></label>
+                            <input id="input-1" type="text">
+                            <label id="last_name"></label>
+                            <input id="input-2" type="text">
+                            <label id="gender"></label>
+                            <input id="input-3" type="text">
+                            <label id="date"></label>
+                            <input id="input-4" type="date">
+                        </div>
+                        <div class="div-2">
+                            <label id="phone"></label>
+                            <input id="input-5" type="number">
+                            <label id="mail"></label>
+                            <input id="input-6" type="email">
+                            <label id="val"></label>
+                            <input id="input-7" type="number">
+                        </div>
+                    </div>
+                    <div><button id="sub" onclick="enroll()">Submit</button>
+                        <button id="view" onclick=" template();show()">View Report</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/testDetails.js"></script>
+    <script src="js/test_report.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy medicines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Raleway;
+        }
+
+        imageSlides {
+            display: none
+        }
+
+        img {
+            margin: auto;
+            display: block;
+            width: 90vw;
+            height: 50vh;
+        }
+
+        .images-slideshow {
+            width: 90vw;
+            height: 50vh;
+            position: relative;
+            margin: auto;
+        }
+
+        .slider-btn {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 8px 16px;
+            margin-top: -22px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+        }
+
+        .previous {
+            top: 47%;
+            left: 6%;
+        }
+
+        .next {
+            top: 47%;
+            right: 6%;
+        }
+
+        .previous:hover,
+        .next:hover {
+            color: rgb(255, 253, 253);
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        #lab {
+            margin-left: 40px;
+        }
+
+        #med {
+            margin-left: 40px;
+        }
+
+        #blog {
+            margin-left: 40px;
+        }
+
+        #doc {
+            margin-left: 40px;
+        }
+
+        #about {
+            margin-left: 40px;
+        }
+
+        #login {
+            margin-left: 37vw;
+        }
+    </style>
+</head>
+
+<body>
+    {{!-- <script src="js/header.js"></script> --}}
+    {{>header}}
+    <script src="js/medicine.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+
+</html>
